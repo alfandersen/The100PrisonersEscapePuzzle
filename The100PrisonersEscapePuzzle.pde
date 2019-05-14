@@ -26,9 +26,11 @@ About:
     - http://datagenetics.com/blog/december42014/index.html
 */
 
-IntList boxes = new IntList();
 int boxCount = 100;
-int[] maxLoopCounter = new int[100];
+int speedMultiplier = 100;
+
+IntList boxes = new IntList();
+int[] maxLoopCounter = new int[boxCount];
 
 int gamesPlayed = 0;
 int gamesWon = 0;
@@ -36,8 +38,6 @@ int gamesWon = 0;
 color bgColor = color(15,30,45);
 color winColor = color(100,255,100);
 color loseColor = color(255,100,100);
-
-int speedMultiplier = 50;
 
 void setup() {
   size(1600,800);
