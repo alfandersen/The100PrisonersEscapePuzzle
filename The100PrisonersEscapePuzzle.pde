@@ -44,8 +44,7 @@ void setup() {
   for(int prisoner = 0; prisoner < boxCount; prisoner++){
     boxes.append(prisoner);
   }
-  strokeWeight(8);
-   //<>//
+  strokeWeight(8); //<>//
 }
 
 void draw() {
